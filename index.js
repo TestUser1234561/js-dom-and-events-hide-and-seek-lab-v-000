@@ -9,3 +9,10 @@ function nestedTarget() {
 function deepestChild() {
   return document.querySelector('#grand-node div div div div')
 }
+
+function increaseRankBy(n) {
+  let list = document.getElementById('app').querySelectorAll('.ranked-list');
+  list.forEach(function(e) {
+    e
+  })
+}
